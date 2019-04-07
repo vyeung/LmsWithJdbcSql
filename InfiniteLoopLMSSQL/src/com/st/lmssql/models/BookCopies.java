@@ -36,4 +36,9 @@ public class BookCopies {
 	public void setNoOfCopies(int noOfCopies) {
 		this.noOfCopies = noOfCopies;
 	}
+
+	@Override
+	public String toString() {
+		return "BookCopies [bookId=" + bookId + ", branchId=" + branchId + ", noOfCopies=" + noOfCopies + "]\n";
+	}
 }

@@ -36,4 +36,10 @@ public class LibraryBranch {
 	public void setBranchAddress(String branchAddress) {
 		this.branchAddress = branchAddress;
 	}
+
+	@Override
+	public String toString() {
+		return "LibraryBranch [branchId=" + branchId + ", branchName=" + branchName + ", branchAddress=" + branchAddress
+				+ "]\n";
+	}
 }
