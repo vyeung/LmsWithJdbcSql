@@ -36,7 +36,7 @@ public class ConnectionFactory {
 			return dbConnection;
 		} 
 		catch (SQLException e) {
-			throw new RuntimeException("Error connecting to the database!", e);
+			throw new RuntimeException("Error connecting to the database! Maybe server is off", e);
 		}
 	}
 }
